@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <None Include="forever_rotate.cs" />
+    <None Include="onKeyPress_moveSprite.cs" />
     <None Include="sometime_flip.cs" />
     <None Include="somtime_turn.cs" />
   </ItemGroup>
