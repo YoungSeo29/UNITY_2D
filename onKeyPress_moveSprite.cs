@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*
 public class OnKeyPress_MoveSprite : MonoBehaviour
 {
     public float speed = 2;
@@ -45,3 +45,4 @@ public class OnKeyPress_MoveSprite : MonoBehaviour
         this.GetComponent<SpriteRenderer>.flipX = leftFlag;
     }
 }
+*
