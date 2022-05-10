@@ -18,19 +18,19 @@ public class OnKeyPress_ChangeAnime : MonoBehaviour
 
     void Update()     //계속 시행한다
     {
-        if (input.GetKey("up"))
+        if (Input.GetKey("up"))
         {
             nowMode = upAnime;
         }
-        if (input.GetKey("down"))
+        if (Input.GetKey("down"))
         {
             nowMode = downAnime;
         }
-        if (input.GetKey("right"))
+        if (Input.GetKey("right"))
         {
             nowMode = rightAnime;
         }
-        if (input.GetKey("left"))
+        if (Input.GetKey("left"))
         {
             nowMode = leftAnime;
         }
