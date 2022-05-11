@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 //터치하면 그 곳에 프리팹을 만든다
-public class NewBehaviourScript : MonoBehaviour
+public class OnMouseDown_CreatePrefab : MonoBehaviour
 {
     public GameObject newPrefab;      //만드는 프리팹 :inspector에 지정
 
