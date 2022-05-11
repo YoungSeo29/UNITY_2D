@@ -15,7 +15,7 @@ public class NewBehaviourScript : MonoBehaviour
             var pos = Camera.main.ScreesToWorldPoint(Input.mousePosition + Camera.main.transform.forward);
             pos.z = -5;            //앞쪽에 표시
             //새로운 프리팹을만들어서 그 위치로 이동시킨다
-            GameObject newGameObject = Instantiate(newPrefab) as newGameObject;
+            GameObject newGameObject = Instantiate(newPrefab) as GameObject;
             newGameObject.transform.position = pos;
 
         }
