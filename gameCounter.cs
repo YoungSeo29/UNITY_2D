@@ -12,6 +12,6 @@ public class gameCounter : MonoBehaviour
 
     void Start()// 처음에 시행한다
     {
-        value = startCount;// 카운터를 리셋
+        value = startCount;// 카운터를 리셋...안하면 리플레이 할때 누적된 값으로 시작함 
     }
 }
