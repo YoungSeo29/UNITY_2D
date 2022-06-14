@@ -9,4 +9,4 @@
 
 수정하기
 
-![me](./images/me.jpg)
+![me](./test/me.jpg)
